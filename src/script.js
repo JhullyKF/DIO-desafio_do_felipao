@@ -28,5 +28,5 @@ function resultado(){
     } else {
         classe = "Radiante";
     }
-    document.getElementById('resultclass').innerHTML = `<p id="resultclass">Parabéns, ${nome}, seu herói é classe ${classe}!</p>`;
+    document.getElementById('resultclass').innerHTML = `<p id="resultclass">Parabéns, ${nome}, <br>seu herói é classe ${classe}!</p>`;
 }
