@@ -1,0 +1,121 @@
+*{
+    padding: 0%;
+}
+body{
+    background-color: white;
+    padding: 0%;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    padding-inline-end: 5px;
+}
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}   
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:400;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+.itens{
+    display: flex;
+    flex-direction: row;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 450px;
+    background-color: #E0E0E0;
+    border: #E0E0E0 solid 1px ;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+}
+form{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 450;
+    line-height: 1.8em;
+}
+
+input{
+    height: 20px;
+    width: 200px;
+    background-color: white;
+    border: grey solid 1px;
+    border-radius: 5px;
+}
+#btn{  
+    margin-top: 20px;
+    background-color: #D9B1A3;
+    border: none;
+    width: 100px;
+    height: 25px;
+    font-family: Georgia, Times, serif;
+    font-size: 14px;
+}
+.result{
+    display: none;
+    border: #D9B1A3 solid 1px;
+    background-color: #D9B1A3;
+    width: 400px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+}
+.img1{
+    width: 110px;
+}
+.img2{
+    width: 150px
+}
+.img3{
+    width: 90px;
+}
+.img4{
+    width: 110px;
+}
+.image1{
+    position: fixed;
+    top: 48%;
+    right: 18%;
+    width: 110px;
+    height: 110px;
+    background-color: #A63E26;
+    align-items: center;
+}
+.image2{
+    position: fixed;
+    top: 35%;
+    right: 10%;
+    width: 150px;
+    height: 150px;
+    background-color: #D9B1A3;
+}
+.image3{
+    position: fixed;
+    top: 50%;
+    right: 5%;
+    width: 90px;
+    height: 90px;
+    background-color: #D9751E;
+}
+.image4{
+    position: fixed;
+    top: 60%;
+    right: 11%;
+    width: 110px;
+    height: 100px;
+    background-color: #466E73;
+}
